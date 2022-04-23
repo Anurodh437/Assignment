@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Html_Form.css" />
+    <title>Input Form Design</title>
+  </head>
+  <body>
+    <p class="heading">Student Registration Form</p>
+    <form>
+      <div class="main">
+        <label for="name" class="label">Name :</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter full name"
+          size="25"
+        />
+      </div>
+      <div class="main">
+        <label for="Fname" class="label">Father's Name :</label>
+        <input type="text" id="Fname" name="Fname" size="25" />
+      </div>
+      <div class="main">
+        <label for="name" class="label">Mother's Name :</label>
+        <input type="text" id="Mname" name="Mname" size="25" />
+      </div>
+      <div class="main">
+        <label for="phone" class="label">Phone Number :</label>
+        <input
+          type="text"
+          id="phone"
+          name="phone"
+          placeholder="017xxxxxxxx"
+          size="25"
+        />
+      </div>
+      <div class="main">
+        <label for="email" class="label">Email :</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="sample@example.com"
+          size="25"
+        />
+      </div>
+      <div class="main">
+        <label for="gender" class="label">Gender :</label>
+        <input type="radio" name="gender" value="Male" /> Male
+        <input type="radio" name="gender" value="Female" /> Female
+        <input type="radio" name="gender" value="Others" /> Others
+      </div>
+      <div class="main" id="dobs">
+        <label for="dob" class="label">Date of Birth :</label>
+        <div>
+          <input type="number" name="date" id="dob" />
+          <span>-</span>
+          <input type="number" name="date" id="dob" />
+          <span>-</span>
+          <input type="number" name="date" id="dob"/>
+          <span>(dd-mm-yyyy)</span>
+        </div>
+      </div>
+      <div class="main">
+        <label for="address" class="label">Address :</label>
+        <input
+          type="text"
+          name="address"
+          id="address"
+          placeholder="Street:-  House:-  Road:-"
+          size="45"
+        />
+      </div>
+      <div class="main">
+        <label for="Bloodgrp" class="label">Blood Group :</label>
+        <select name="Bloodgrp" id="Bloodgrp">
+          <option value="Select">Select</option>
+          <option value="A+">A+</option>
+          <option value="A-">A-</option>
+          <option value="B+">B+</option>
+          <option value="B-">B-</option>
+          <option value="O+">O+</option>
+          <option value="O-">O-</option>
+          <option value="AB+">AB+</option>
+          <option value="AB-">AB-</option>
+        </select>
+      </div>
+      <div class="main">
+        <label for="department" class="label">Department :</label>
+        <input type="radio" name="CSE" /> CSE
+        <input type="radio" name="EEE" /> EEE
+        <input type="radio" name="BBA" /> BBA
+      </div>
+      <div class="main">
+        <label for="course" class="label">Course :</label>
+        <input type="checkbox" /> C <input type="checkbox" /> C++
+        <input type="checkbox" /> Java <input type="checkbox" /> AI
+        <input type="checkbox" /> Machine Learning
+        <input type="checkbox" /> Robotics
+      </div>
+      <div class="main">
+        <label for="photo" class="label">Photo :</label>
+        <input type="file" id="fileupload" />
+      </div>
+      <div id="buttons" class="main">
+        <label class="label">
+          <a href="#">Submit</a>
+          <input type="reset" id="reset" />
+        </label>
+      </div>
+    </form>
+    <div class="table">
+      <h3 class="he"><u>HTML Table</u></h3>
+      <table border="1">
+        <tr>
+          <th>SNo</th>
+          <th>Name</th>
+          <th>Phone No</th>
+          <th>Gender</th>
+          <th>City</th>
+          <th>Hobbies</th>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>Anurodh</td>
+          <td>7368368383</td>
+          <td>Male</td>
+          <td>Renukoot</td>
+          <td>Football</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Ashutosh</td>
+          <td>7368368352</td>
+          <td>Male</td>
+          <td>Renukoot</td>
+          <td>Badminton</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Amit</td>
+          <td>7368368363</td>
+          <td>Male</td>
+          <td>Mathura</td>
+          <td>Football</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>Sajal</td>
+          <td>7368368332</td>
+          <td>Male</td>
+          <td>Mathura</td>
+          <td>Cricket</td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>Divyansh</td>
+          <td>7368368434</td>
+          <td>Male</td>
+          <td>Mathura</td>
+          <td rowspan="2">Hockey</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
