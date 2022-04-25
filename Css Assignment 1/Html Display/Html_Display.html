@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Html_Display.css" />
+    <title>Html Display and Visibility</title>
+  </head>
+  <body>
+    <div>
+      <!-- Display Properties -->
+      <h2 class="heading">Display Property</h2>
+      <div class="container">
+        <h3>1. Display Type:- None</h3>
+        <span
+          >It helps developer to hide the element with display property set to
+          none. For element whose display is set to none will not be visible here.
+          <p id="none"><b>ABC-XYZ</b></p>
+        <h3>1. Display Type:- Inline</h3>
+        <span
+          >An element with a display property set to inline will not start on a
+          new line and it will take up the remaining/available screen width. It
+          just takes up the space such an element would normally take.
+          <p id="inline"><b>{display: inline}</b></p></span
+        >
+        <h3>1. Display Type:- Inline-block</h3>
+        <span
+          >An element you assign a display of inline-block is inline by presentation. But it has the added advantage of you being able to apply width and height to it, which you can't do when the element is assigned a dispaly of inline
+          <p id="block"><b>{display: block}</b></p></span
+        >
+        <h3>1. Display Type:- Block</h3>
+        <span
+          >An element that has the display property set to block starts on a new line and takes up the available screen width.
+          <p id="inline-block"><b>{display: inline-block}</b></p>
+          </span
+        >
+        <h3>1. Display Type:- Flex</h3>
+        <span
+          >A display of flex gives you access to the Flex layout system, which simplifies how we design and layout our web pages
+          <p id="flex"><b>{display: flex}</b></p></span
+        >
+      </div>
+
+      <!-- Visibility Properties -->
+      <p class="heading" id="visibility">
+        <b> Visibility Property</b>
+      </p>
+      <div>
+        <h3>1. Visibility: visible</h3>
+        <span id="visible"
+          >By default the element is visible.
+          <div class="div1">DIV 1</div>
+          <div class="div2">DIV 2</div>
+          <div class="div3">DIV 3</div>
+        </span>
+        <h3>2. Visibility: hidden</h3>
+        <span id="hidden">
+          <div class="div1">DIV 1</div>
+          <div class="div21">DIV 2</div>
+          <div class="div3">DIV 3</div>
+        </span>
+        <p>Here div2 element is set to hidden visibility,but it occupies its default spacing.</p>
+      </div>
+      <p class="heading" id="visibility">
+        <b> Float Property</b>
+      </p>
+      <div>
+        <img class="imgs" src="../../assets/gemini.jpg" alt="Gemini">
+        <img class="img1" src="../../assets/gemini.jpg" alt="Gemini">
+        <div class="text">
+          Here we have to images which are having the float property and the image on the left has the float property of left and image on the right has the property of float right.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
