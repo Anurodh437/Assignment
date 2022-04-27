@@ -1,0 +1,147 @@
+.naright {
+  background: #e7e8ed;
+  box-shadow: 7px 7px 10px 0 #888888;
+}
+
+.bgm {
+  background-image: url("../assets/background.webp");
+}
+
+.shds {
+  box-shadow: 7px 7px 10px 0 #888888;
+}
+
+.dynamic_form {
+  background-image: linear-gradient(to bottom right, #eff0f3, #e5e6eb);
+  box-shadow: 3px 3px 6px #bfc3cf, -3px -3px 6px #fff;
+  border: none;
+  margin-bottom: 4rem;
+}
+
+.dynamic_formgrp {
+  margin-bottom: 1.5rem;
+}
+
+.dynamic_form_heading {
+  color: #264a9f;
+  height: 52px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.inputlabel {
+  color: #071e54;
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+.css-container {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.css1ctrl {
+  align-items: center;
+  background-color: transparent !important;
+  border-color: hsl(0, 0%, 80%);
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #ffffff;
+  cursor: default;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  min-height: 38px;
+  outline: 0 !important;
+  position: relative;
+  transition: all 100ms;
+  box-sizing: border-box;
+  color: #071e54;
+  opacity: 0.8;
+  border: none !important;
+}
+
+.css2ctrl {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 2px 8px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.css3ctrl {
+  color: #071e54;
+  margin-left: 2px;
+  margin-right: 2px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  padding-left: 15px;
+  opacity: 0.2;
+}
+
+.dummyinput {
+  background: 0;
+  border: 0;
+  font-size: 12px;
+  outline: 0;
+  padding: 0;
+  width: 1px;
+  color: transparent;
+  left: 100px;
+  opacity: 1;
+  position: relative;
+  transform: scale(0);
+}
+
+.t_input {
+  border-radius: 50px;
+  background: transparent;
+  width: 100%;
+  border: none;
+  outline: none !important;
+  font-weight: 600;
+  line-height: 1.5;
+  box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.t_input:focus {
+  background: transparent;
+  outline: none !important;
+}
+
+.t_input::placeholder {
+  color: #071e54;
+  opacity: 0.5;
+}
+
+.mainbutton {
+  background: transparent
+    linear-gradient(276deg, rgba(13, 53, 148, 0.898039), #35d3e1) 0 0 no-repeat
+    padding-box;
+  color: #fff;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.buttontxt {
+  color: #071e54;
+  opacity: 0.4;
+  margin-top: 2px;
+  font-size: 13px;
+  margin-left: 18px;
+  margin-bottom: 12px;
+}
