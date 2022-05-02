@@ -15,7 +15,7 @@
   //created table head attribute
   var tHead = document.createElement("thead");
   // set table head color as dark
-  tHead.setAttribute("class", "table-dark");
+  tHead.setAttribute("class", "table-primary");
   // created table row and table head element
   var tr = document.createElement("tr");
   var th1 = document.createElement("th");
@@ -55,6 +55,7 @@
     var text3 = document.createTextNode(array[i][2]);
     var text4 = document.createTextNode(array[i][3]);
     var text5 = document.createTextNode(array[i][4]);
+    // finally adding all elements to the body tag
     td1.appendChild(text1);
     td2.appendChild(text2);
     td3.appendChild(text3);
